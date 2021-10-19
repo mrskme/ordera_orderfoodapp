@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:ordera_orderfoodapp/Constants/Food/ingredients.dart';
 
 import 'ingredient.dart';
@@ -14,8 +15,9 @@ class WheatFoods extends Ingredients {
     briocheBun = Ingredient("brioche bun", 12);
     pancakes = Ingredient("pancakes", 30);
 
+    name = "Wheat foods";
+
     allList = [burgerBun, spaghetti, briocheBun, pancakes];
-    var list2 = {for (var kake in allList) kake};
     allMap = mapList();
   }
 }

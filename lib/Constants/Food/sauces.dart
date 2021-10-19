@@ -13,6 +13,9 @@ class Sauces extends Ingredients {
     garlicDressing = Ingredient("garlic dressing", 5);
     tomatoSauce = Ingredient("tomato sauce", 5);
     syrup = Ingredient("syrup", 15);
+
+    name = "Sauces";
+
     allList = [hotSauce, garlicDressing, tomatoSauce];
     allMap = mapList();
   }
